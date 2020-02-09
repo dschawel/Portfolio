@@ -1,9 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import About from './About'
-import Contact from './Contact'
-import Home from './Home'
-import Projects from './Projects'
+import { BrowserRouter as Router } from 'react-router-dom';
+import Content from './content/Content'
+import Footer from './nav/Footer'
+import NavigationBar from './nav/NavigationBar'
 import './App.css';
 
 class App extends React.Component {
@@ -12,17 +11,12 @@ class App extends React.Component {
     return (
       <Router>
         <div className = 'app'>
-          <div className='navbar'>
-            <Link className='link' to ='/'> Home Page</Link>
-            <Link className='link' to ='/about'>About Me</Link>
-            <Link className='link' to ='/projects'>Projects</Link>
-            <Link className='link' to ='/contact'>Contact Me</Link>
-          </div>
-          <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About}/>
-          <Route path='/projects' component={Projects}/>
-          <Route path='/contact' component={Contact}/>
+          <NavigationBar />
+          <main>
+            <Content />
+          </main>
         </div>
+        <Footer />
       </Router>
     )
   }

@@ -1,21 +1,6 @@
 .app {
   text-align: center;
 }
-.navbar {
-  text-align: center;
-  line-height: 1em;
-  background-color: blue;
-}
-.link {
-  text-decoration: none;
-  padding: 1em;
-  font-size: 1em;
-  color: white;
-}
-.link:hover {
-  text-decoration: underline;
-  color: red;
-}
 
 .about {
   width: 50vw;
@@ -44,6 +29,23 @@
 
 .font-awesome {
   color: gray;
+}
+
+.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-nodejs-plain, .devicon-react-original-wordmark, .devicon-python-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-express-original-wordmark, .devicon-sequelize-plain-wordmark {
+  font-size: 3em;
+}
+
+footer {
+  height: 7vh;
+  width: 100vw;
+  bottom: 0;
+  background-color: #41545E;
+  font-size: 16px;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 

@@ -27,6 +27,13 @@ const Projects = (props) => {
                 <Button>Visit PetRex</Button>
                 </Card>
             </Col>
+            <Col sm="6">
+                <Card body>
+                <CardTitle><strong>Project 4 Placeholder</strong></CardTitle>
+                <CardText>Placeholder</CardText>
+                <Button>Placeholder</Button>
+                </Card>
+            </Col>
         </Row>
     </div>
     )
