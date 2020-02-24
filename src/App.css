@@ -3,22 +3,18 @@
 }
 
 .about {
-  width: 50vw;
+  width: 65vw;
   margin: 0 auto;
 }
 
 .home {
-  margin-top: 35vh;
+  margin-top: 21vh;
 }
 
-.skills {
-  display: inline-flex;
-  margin: 0 auto;
-}
-
-.projects {
-  margin: 5em;
-  padding: 5em;
+.skills-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .icons {
@@ -34,6 +30,11 @@
 .devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-nodejs-plain, .devicon-react-original-wordmark, .devicon-python-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-express-original-wordmark, .devicon-sequelize-plain-wordmark {
   font-size: 3em;
 }
+
+.projects {
+  overflow-y: scroll;
+}
+
 
 footer {
   height: 7vh;
