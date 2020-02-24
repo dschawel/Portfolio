@@ -1,5 +1,6 @@
 .app {
   text-align: center;
+  margin: 0 0 5em;
 }
 
 .about {
@@ -35,13 +36,16 @@
   overflow-y: scroll;
 }
 
+.card-image {
+  opacity: 0.6;
+}
+
 
 footer {
   height: 7vh;
   width: 100vw;
   bottom: 0;
   background-color: #41545E;
-  font-size: 16px;
   display: flex;
   position: fixed;
   flex-direction: row;

@@ -20,7 +20,7 @@ const Contact = props => {
                 </a>
             </div>
             <div className="icons">
-                <a href="david.schawel@gmail.com">
+                <a href="mailto:david.schawel@gmail.com">
                     <FontAwesomeIcon className='font-awesome' icon={faEnvelope} size = '3x'/>
                     <p>Email</p>
                 </a>
