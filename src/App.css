@@ -1,45 +1,53 @@
 .app {
   text-align: center;
   margin: 0 0 5em;
+  font-family: 'Londrina Solid';
 }
 
 .about {
+  display: inline-block;
   width: 65vw;
   margin: 0 auto;
+  padding: 2em;
 }
 
 .home {
-  margin-top: 21vh;
+  margin-top: 25vh;
 }
 
 .skills-container {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  /* width: 65vw; */
+  margin: 0 auto;
 }
 
 .icons {
   height: 2em;
   padding: 2em;
-  display: inline-flex;
+  display: inline-block;
 }
 
 .font-awesome {
   color: gray;
 }
 
-.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-nodejs-plain, .devicon-react-original-wordmark, .devicon-python-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-express-original-wordmark, .devicon-sequelize-plain-wordmark {
+.devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-nodejs-plain, .devicon-react-original-wordmark, .devicon-python-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-express-original-wordmark, .devicon-sequelize-plain-wordmark, .devicon-sass-original, .devicon-bootstrap-plain-wordmark {
   font-size: 3em;
-}
-
-.projects {
-  overflow-y: scroll;
 }
 
 .card-image {
   opacity: 0.6;
 }
 
+.contact {
+  margin-top: 14em;
+}
+
+p {
+  color: gray;
+}
 
 footer {
   height: 7vh;
