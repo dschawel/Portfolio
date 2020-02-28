@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/fontawesome-free-brands';
+import { faLinkedin, faGithub } from '@fortawesome/fontawesome-free-brands'
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = props => {
@@ -26,7 +26,7 @@ const Contact = props => {
                 </a>
             </div>
             <div className="icons">
-                <a href="">
+                <a href="/David_Schawel_Resume.pdf" target="_blank">
                     <FontAwesomeIcon className='font-awesome' icon={faFile} size = '3x'/>
                     <p>Resume</p>
                 </a>
