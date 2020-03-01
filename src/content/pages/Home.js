@@ -7,7 +7,9 @@ const Home = props => {
             <h3>Full Stack Web Developer</h3>
             <img alt="pic" src="https://i.imgur.com/GYya0LJ.jpg" class="img-thumbnail"></img>
             <hr />
-            <p>I am a recent graduate from General Assembly's software engineering bootcamp.  My confidence with CSS and Javascript allow me to create well designed and functioning solutions to problems.  I am able to creatively solve any design problem that is given to me with my proficiency in CSS.   Having a perfectionist mentality inspires me to do great work.  If I can’t get something to work, I use my problem solving skills to find a solution.  I am able to take a set of given criteria and provide a solution that is well thought out and designed.</p>
+            <p>I’m a creative-minded and solution driven full stack software engineer who has a passion for building well 
+            designed and intuitive programs.  My confidence with JavaScript frameworks, such as React, paired with 
+            CSS and SASS allow me to create well designed and functioning solutions to problems. </p>
             <hr />
             <div className='skills-container'>
                 <div><i className="devicon-html5-plain-wordmark colored"></i></div>
