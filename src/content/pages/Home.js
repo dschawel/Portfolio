@@ -2,6 +2,7 @@ import React from 'react'
 
 const Home = props => {
     return (
+        // Home page
         <div className='about'>
             <h1>David Schawel</h1>
             <h3>Full Stack Web Developer</h3>
