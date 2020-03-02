@@ -4,6 +4,7 @@ import { Card, Button, CardTitle, CardText, CardImg, Row, Col } from 'reactstrap
 
 const Projects = (props) => {
     return (
+    // Projects page
     <div className='projects'>
         <h1>Projects</h1>
         <Row>
