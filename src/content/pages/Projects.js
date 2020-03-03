@@ -23,7 +23,7 @@ const Projects = (props) => {
                 <Card body>
                     <CardTitle><h2><strong>Digital Scrabook</strong></h2></CardTitle>
                     <CardImg className="card-image" width="30%" height="30%" src="https://i.imgur.com/FJx9E5y.png" alt="Card image cap" />
-                    <CardText>Store all of your memories along with pictures and where they happened with the Digital Scrapbook app.  Digital Scrapbook implemented PostgreSQL, Express and Node.  Developed sign-in/sign-up functionality with hashed passwords.  Designed for desktop, working on mobile.</CardText>
+                    <CardText>Store all of your memories along with pictures and where they happened with the Digital Scrapbook app.  Digital Scrapbook implemented PostgreSQL, Express and Node.  Developed sign-in/sign-up functionality with hashed passwords.</CardText>
                     <Button a href="https://github.com/dschawel/Digital-Scrapbook" target="_blank">GitHub Link For Digital Scrapbook</Button>
                     <br />
                     <Button a href="https://digital-scrapbook.herokuapp.com/" target="_blank">Live Link</Button>
