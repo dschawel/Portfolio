@@ -5,6 +5,7 @@ import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = props => {
     return (
+        // Contact page
         <div className="contact">
             <h1>Feel free to contact me!</h1>
             <div className="icons">
