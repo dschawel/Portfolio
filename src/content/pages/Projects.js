@@ -47,7 +47,7 @@ const Projects = (props) => {
             <Card body>
                 <CardTitle><h2><strong>We-Watch</strong></h2></CardTitle>
                 <CardImg className="card-image" width="30%" height="30%" src="https://i.imgur.com/8P8Nmjf.png" alt="Card image cap" />
-                <CardText>This app allows the user to add shows to their queue and then search for and add their friends so they can view their queue.  It was built using MongoDB, Express, React and Node.  Sign-in/sign-up functionality that incorporates BCrypt to hash passwords.  Built for desktop, working on mobile.</CardText>
+                <CardText>This app allows the user to add shows to their queue and then search for and add their friends so they can view their queue.  It was built using MongoDB, Express, React and Node.  Sign-in/sign-up functionality that incorporates BCrypt to hash passwords.  Built for desktop.</CardText>
                 <Button a href="https://github.com/dschawel/we-watch-client" target="_blank">GitHub Link For We-Watch</Button>
                 <br />
                 <Button a href="https://we-watch2.herokuapp.com/" target="_blank">Live Link</Button>
