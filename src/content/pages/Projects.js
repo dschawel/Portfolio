@@ -12,7 +12,7 @@ const Projects = (props) => {
                 <Card body>
                     <CardTitle><h2><strong>PetRex</strong></h2></CardTitle>
                     <CardImg className="card-image" width="30%" height="30%" src="https://i.imgur.com/P8meqRv.png" alt="Card image cap" />
-                    <CardText>PetRex is an app designed so pet owners can store their pets health records digitally.  It was built using MongoDB, Express, React and Node.  Incorporates JWT tokens to protect routes.  Designed for desktop, working on mobile.</CardText>
+                    <CardText>PetRex is an app designed so pet owners can store their pets health records digitally.  It was built using MongoDB, Express, React and Node.  Incorporates JWT tokens to protect routes.</CardText>
                     <Button a href="https://github.com/dschawel/vet-app-client" target="_blank">GitHub Link For PetRex</Button>
                     <br />
                     <Button a href="https://pet-rex.herokuapp.com/" target="_blank">Live Link</Button>
