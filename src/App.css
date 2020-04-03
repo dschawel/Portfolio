@@ -5,13 +5,12 @@
 
 .about {
   display: inline-block;
-  width: 65vw;
   margin: 0 auto;
   padding: 2em;
 }
 
-.home {
-  margin-top: 25vh;
+.home, .projects {
+  margin-top: 2em;
 }
 
 .skills-container {
@@ -29,7 +28,7 @@
 }
 
 .font-awesome {
-  color: gray;
+  color: blue;
 }
 
 .devicon-html5-plain-wordmark, .devicon-css3-plain-wordmark, .devicon-javascript-plain, .devicon-nodejs-plain, .devicon-react-original-wordmark, .devicon-python-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-mongodb-plain-wordmark, .devicon-express-original, .devicon-sequelize-plain, .devicon-sass-original, .devicon-bootstrap-plain-wordmark {
@@ -41,11 +40,15 @@
 }
 
 .contact {
-  margin-top: 14em;
+  margin-top: 6.5em;
 }
 
 p {
   color: gray;
+}
+
+img {
+  padding-top: 12px;
 }
 
 footer {

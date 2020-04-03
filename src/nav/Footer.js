@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = props => {
     return (
         <footer>
-            <img alt="logo" src="https://i.imgur.com/Ifr5XXW.png?1"></img>    
+            <img alt="logo" src="https://i.imgur.com/PVWYGD4.png?4"></img>    
         </footer>
     )
 }

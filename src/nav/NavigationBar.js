@@ -8,6 +8,7 @@ const Styles = styled.div`
 .navbar { background-color: #41545E; }
 a, .navbar-nav, .navbar-light .nav-link {
 color: #99CAC9;
+font-weight: 800;
 &:hover { color: #87A693; }
 }
 `;
