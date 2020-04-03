@@ -6,25 +6,32 @@
 .about {
   display: inline-block;
   margin: 0 auto;
-  padding: 2em;
 }
 
-.home, .projects {
-  margin-top: 2em;
+.about, .projects {
+  margin-top: 1.25em;
 }
 
 .skills-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  /* width: 65vw; */
   margin: 0 auto;
+}
+
+.skill {
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 .icons {
   height: 2em;
   padding: 2em;
   display: inline-block;
+}
+
+.icon:hover {
+  color: #87A693;
 }
 
 .font-awesome {
@@ -35,8 +42,21 @@
   font-size: 3em;
 }
 
+.card {
+  margin-top: .5em;
+  min-height: 85vh;
+}
+
+.card-text {
+  padding-top: .5em;
+}
+
 .card-image {
   opacity: 0.6;
+}
+
+.live-link {
+  background-color: blue;
 }
 
 .contact {
@@ -48,7 +68,7 @@ p {
 }
 
 img {
-  padding-top: 12px;
+  padding-top: 15px;
 }
 
 footer {

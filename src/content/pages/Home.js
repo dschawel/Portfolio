@@ -13,18 +13,18 @@ const Home = props => {
             CSS and SASS allow me to create well designed and functioning solutions to problems. </p>
             <hr />
             <div className='skills-container'>
-                <div><i className="devicon-html5-plain-wordmark colored"></i></div>
-                <div><i className="devicon-css3-plain-wordmark colored"></i></div>
-                <div><i className="devicon-javascript-plain colored"></i></div>
-                <div><i className="devicon-nodejs-plain colored"></i></div>
-                <div><i className="devicon-react-original-wordmark colored"></i></div>
-                <div><i className="devicon-python-plain-wordmark colored"></i></div>
-                <div><i className="devicon-postgresql-plain-wordmark colored"></i></div>
-                <div><i className="devicon-mongodb-plain-wordmark colored"></i></div>
-                <div><i className="devicon-express-original colored"></i></div>
-                <div><i className="devicon-sequelize-plain colored"></i></div>
-                <div><i className="devicon-sass-original colored"></i></div>
-                <div><i className="devicon-bootstrap-plain-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-html5-plain-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-css3-plain-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-javascript-plain colored"></i></div>
+                <div className="skill"><i className="devicon-nodejs-plain colored"></i></div>
+                <div className="skill"><i className="devicon-react-original-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-python-plain-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-postgresql-plain-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-mongodb-plain-wordmark colored"></i></div>
+                <div className="skill"><i className="devicon-express-original colored"></i></div>
+                <div className="skill"><i className="devicon-sequelize-plain colored"></i></div>
+                <div className="skill"><i className="devicon-sass-original colored"></i></div>
+                <div className="skill"><i className="devicon-bootstrap-plain-wordmark colored"></i></div>
             </div>
         </div>
     )
