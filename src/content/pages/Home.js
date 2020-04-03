@@ -5,7 +5,7 @@ const Home = props => {
         // Home page
         <div className='about'>
             <h1>David Schawel</h1>
-            <h3>Full Stack Web Developer</h3>
+            <h3>Full Stack Software Engineer</h3>
             <img alt="pic" src="https://i.imgur.com/GYya0LJ.jpg" class="img-thumbnail"></img>
             <hr />
             <p>I’m a creative-minded and solution driven full stack software engineer who has a passion for building well 

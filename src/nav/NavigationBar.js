@@ -9,7 +9,7 @@ const Styles = styled.div`
 a, .navbar-nav, .navbar-light .nav-link {
 color: #99CAC9;
 font-weight: 800;
-&:hover { color: #87A693; }
+&:hover { color: orange; }
 }
 `;
 

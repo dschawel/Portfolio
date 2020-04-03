@@ -31,7 +31,7 @@
 }
 
 .icon:hover {
-  color: #87A693;
+  color: orange;
 }
 
 .font-awesome {
@@ -44,7 +44,7 @@
 
 .card {
   margin-top: .5em;
-  min-height: 85vh;
+  min-height: 20em;
 }
 
 .card-text {
