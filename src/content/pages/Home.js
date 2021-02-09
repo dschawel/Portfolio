@@ -7,7 +7,7 @@ const Home = props => {
             <h1>David Schawel</h1>
             <h3>Full Stack Software Engineer</h3>
             <div className="bio">
-                <img alt="Photo of me" src="https://i.imgur.com/GYya0LJ.jpg" style={{ borderRadius: "40%" }} class="img-thumbnail"></img>
+                <img alt="me" src="https://i.imgur.com/GYya0LJ.jpg" style={{ borderRadius: "40%" }} class="img-thumbnail"></img>
                 <p>I’m a creative-minded and solution driven full stack software engineer who has a passion for building well
                 designed and intuitive programs.  My confidence with JavaScript frameworks, such as React, paired with
                 CSS and SASS allow me to create well designed and functioning solutions to problems. </p>
