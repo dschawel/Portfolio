@@ -8,6 +8,19 @@
   margin: 0 auto;
 }
 
+.bio {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin-bottom: 3%;
+}
+
+.bio p {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
 .about, .projects {
   margin-top: 1.25em;
 }
